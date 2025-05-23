@@ -1,0 +1,152 @@
+*{
+   padding: 0;
+    
+}
+header{
+    background-image: url(images/deux.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+   padding-bottom: 20%;
+}
+
+#menu li{
+    text-decoration: none;
+   display: inline-block;
+   margin-left: 40px;
+   transition: all 0.3s ease-in-out;
+}
+
+#menu li:hover{
+    transform: scale(1.2);
+    color:#337ab7;
+}
+#menu li::after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color:#337ab7 ;
+    transition: all 0.3s ease-in-out;
+}
+#menu{
+    margin-left: 60%;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+.image img{
+   margin-top: 80px;
+   margin-left: 55%;
+   border-radius: 50%;
+  
+    
+}
+.nom{
+    margin-top: -450px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+section.logo{
+    font-style: italic;
+    text-decoration: underline;
+    background-color: black;
+}
+.nom p {
+    margin-left:16%;
+    margin-top: 40px;
+    font-size: 40px;
+    color: red;
+}
+#apropos{
+    margin-top: 25%;
+    text-align: center;
+    background-color: green;
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+.deux h2{
+    margin-right: 85%;
+    
+}
+.trois{
+    margin-top: 20px;
+}
+.quatre{
+    margin-right: 80%;
+    margin-top: 15px;
+}
+.cinq{
+    text-align: left;
+    margin-top: 20px;
+}
+section{
+    border-radius: 20px;
+padding-bottom :20px;
+    
+}
+#Competences{
+     margin-top: 2%;
+    text-align: center;
+    background-color:aqua;
+    font-size: 20px;
+    
+}
+.huit{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.neuf{
+    
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px
+}
+.dix{
+    
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px
+}
+ #contact{
+    
+     margin-top: 2%;
+    text-align: center;
+    background-color:black;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    
+}
+.nom h2{
+    margin-left: 50px;
+    color: blue;
+    margin-top: 20px;
+}
+.onze a{
+    text-decoration: none;
+}
+.douze a{
+    margin-left: -85%;
+    margin-top: 8%;
+    color: white;
+     transition: all 0.3s ease-in-out;
+}
+.douze a:hover{
+    transform: scale(1.2);
+    color:#337ab7;
+}
+.douze::after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color:#337ab7 ;
+    transition: all 0.3s ease-in-out;
+}
